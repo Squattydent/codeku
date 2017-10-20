@@ -1,0 +1,21 @@
+## ini untuk global setting github
+$ git config --global user.name "Kidigo"
+$ git config --global user.email squattydent@gmail.com
+$ git config --global core.editor gedit (untuk linux) 
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" (untuk windows x64)
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession" (untuk windows x86)
+
+
+## untuk nambah file di repo
+$ git add * (untuk menambahkan semua secara otomatis)
+$ git add folder1/folder2/filename.filetype
+$ git commit -m "add filename.filetype"
+
+
+## untuk menghapus file di repo
+$ git rm filename.filetype (menghapus file dalam repo utama)
+$ git rm folder1/folder2/filename.filetype (menghapus file dalam repo)
+$ git commit -m "remove filename.filetype"
+
+## update repo
+$ git push origin master
