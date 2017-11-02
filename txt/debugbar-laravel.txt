@@ -1,0 +1,11 @@
+1. In your Laravel 5 project require the package:
+## composer require barryvdh/laravel-debugbar
+
+2. Next open config/app.php and inside the 'providers' array add:
+## 'Barryvdh\Debugbar\ServiceProvider',
+
+3. Finally, if you wish to add the facades add this to the 'aliases' array:
+## 'Debugbar' => 'Barryvdh\Debugbar\Facade',
+
+4. Setting '.env' and change 'true' or 'false'
+## APP_DEBUG=true
